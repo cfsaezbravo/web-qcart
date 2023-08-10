@@ -711,14 +711,14 @@ h6,
   }
 
   .slide-track22 {
-    width: calc(30rem * 39);
+    width: calc(22rem * 39);
     display: flex;
     animation: scroll22 45s linear infinite;
     justify-content: space-between;
   }
   
   .slide2 {
-    width: 30rem;
+    width: 22rem;
     height: 100%;
   
     display: grid;
@@ -726,9 +726,14 @@ h6,
     transition:0.5s;
     cursor:pointer;
   }
-  .slide:hover{
+  .slide2 img{
+    max-width: 18rem;
+  }
+  
+  .slide2:hover{
     transform:scale(0.8)
   }
+  
   
   @keyframes scroll22 {
     0% {
